@@ -197,9 +197,10 @@
 	}
 	.first {
 		display: flex;
-		height: 900px;
+		height: auto;
 		width: 400px;
 		overflow: hidden;
+		border: 5px solid red;
 	}
 	.left {
 		width: 100%;
@@ -230,7 +231,7 @@
 		margin-top: 50px;
 		border-radius: 50%;
 		position: absolute;
-		transform: translate(300px, 650px);
+		transform: translate(270px, 600px);
 	}
 
 	.plusIcon {

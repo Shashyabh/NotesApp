@@ -124,7 +124,7 @@
 
 	.mainDiv {
 		width: 400px;
-		height: 900px;
+		height: 800px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -148,7 +148,7 @@
 	}
 
 	.contentDiv {
-		height: 620px;
+		height: 520px;
 		overflow-y: auto;
 		scrollbar-width: none;
 	}
