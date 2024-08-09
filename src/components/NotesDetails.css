@@ -1,0 +1,229 @@
+@media (min-width: 768px) {
+	.mainDiv {
+		height: 100%;
+	}
+	.navDiv {
+		width: 1095px;
+		background-color: #001f8b;
+		height: 12%;
+		display: flex;
+		align-items: center;
+	}
+	.mainDiv p {
+		color: white;
+	}
+
+	.navDiv div {
+		margin-left: 15px;
+	}
+
+	.contentDiv {
+		height: 58%;
+		width: 1090px;
+		overflow-y: auto;
+		scrollbar-width: none;
+		/* margin-top: 30px; */
+	}
+
+	.card {
+		border-radius: 6px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+		overflow: hidden;
+		margin: 16px;
+		background-color: #ffffff;
+		width: 1000px;
+	}
+
+	.dateAndTime {
+		margin-top: 20px;
+		display: flex;
+		justify-content: flex-end;
+		gap: 15px;
+		align-items: center;
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 3.5%;
+		margin-right: 15px;
+		/* border: 3px solid maroon; */
+	}
+
+	.circleDot {
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		background-color: black;
+	}
+	.content {
+		/* border: 3px solid hotpink; */
+		/* width: 85%; */
+		padding: 15px;
+		margin-left: 20px;
+		font-family: "Roboto";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 30px;
+		letter-spacing: 3.5%;
+		color: black;
+	}
+
+	.inputDiv {
+		width: 1090px;
+
+		height: 30%;
+		background-color: #001f8b;
+		border: 1px solid #cccccc;
+	}
+	.textArea {
+		margin: 25px;
+		padding: 5px;
+		resize: none;
+		border-radius: 9px;
+		font-family: "Roboto";
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 26px;
+		color: #9a9a9a;
+	}
+
+	.textArea::placeholder {
+		font-family: "Roboto";
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 26px;
+		letter-spacing: 3.5%;
+		color: #9a9a9a;
+	}
+
+	.submitButton {
+		position: absolute;
+		margin-left: 1000px;
+		margin-top: 145px;
+		opacity: 1;
+	}
+
+	.submitButtonDisable {
+		position: absolute;
+		margin-left: 1010px;
+		margin-top: 150px;
+		opacity: 0.4;
+	}
+	.arrowImg {
+		display: none;
+	}
+	.notesCreateButtonDis {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	/* .notesCreateButton {
+		display: none;
+	} */
+
+	.mainDiv {
+		width: 400px;
+		height: 900px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.navDiv {
+		width: 400px;
+		background-color: #001f8b;
+		display: flex;
+		align-items: center;
+		justify-content: start;
+	}
+	.arrowImg {
+		margin-left: 10px;
+		width: 30px;
+		height: 20px;
+		cursor: pointer;
+	}
+	.mainDiv p {
+		color: white;
+	}
+
+	.contentDiv {
+		height: 620px;
+		overflow-y: auto;
+		scrollbar-width: none;
+	}
+
+	.card {
+		border-radius: 6px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+		overflow: hidden;
+		margin: 16px;
+		background-color: #ffffff;
+		width: 340px;
+	}
+
+	.dateAndTime {
+		margin-top: 20px;
+		display: flex;
+		justify-content: flex-end;
+		gap: 15px;
+		align-items: center;
+		font-family: "Roboto";
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 3.5%;
+		margin-right: 15px;
+	}
+
+	.circleDot {
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		background-color: black;
+	}
+	.content {
+		padding: 15px;
+		margin-left: 20px;
+		font-family: "Roboto";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 30px;
+		letter-spacing: 3.5%;
+		color: black;
+	}
+
+	.inputDiv {
+		width: 400px;
+		background-color: #001f8b;
+		border: 1px solid #cccccc;
+	}
+	.textArea {
+		margin: 25px;
+		width: 350px;
+		border-radius: 9px;
+	}
+
+	.textArea::placeholder {
+		font-family: "Roboto";
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 3.5%;
+		color: #9a9a9a;
+	}
+
+	.submitButton {
+		position: absolute;
+		margin-left: 330px;
+		margin-top: 85px;
+		opacity: 1;
+	}
+
+	.submitButtonDisable {
+		position: absolute;
+		margin-left: 330px;
+		margin-top: 85px;
+		opacity: 0.4;
+	}
+}

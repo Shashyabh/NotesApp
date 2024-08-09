@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+	.mainnDiv {
+		width: 450px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.mainnDiv h1 {
+		font-family: "Roboto";
+		font-size: 45px;
+		font-weight: 400;
+		line-height: 45px;
+		letter-spacing: 2%;
+		color: black;
+	}
+
+	.mainnDiv p {
+		font-family: "Roboto";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
+		letter-spacing: 2%;
+		color: #292929;
+	}
+
+	.footerPara {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform: translateY(130px);
+		/* margin-top: 230px; */
+	}
+
+	.footerPara p {
+		font-family: "Roboto";
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 30px;
+		letter-spacing: 2%;
+		color: black;
+	}
+	.lockImage {
+		width: 15px;
+		height: 15px;
+		margin-right: 10px;
+	}
+}
