@@ -200,7 +200,7 @@
 		height: auto;
 		width: 400px;
 		overflow: hidden;
-		border: 5px solid red;
+		/* border: 5px solid red; */
 	}
 	.left {
 		width: 100%;
