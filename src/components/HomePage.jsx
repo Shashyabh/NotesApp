@@ -47,6 +47,7 @@ const HomePage = () => {
 	};
 	const handleBackToHomePage = () => {
 		setShowNotesPage(true);
+		setSelectedCardBG(null);
 	};
 
 	useEffect(() => {
